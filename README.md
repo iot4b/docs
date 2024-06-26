@@ -1,3 +1,46 @@
+# Table of Contents for README.md
+
+1. [Introduction](#introduction)
+    - [Why Blockchain?](#why-blockchain)
+    - [Data and Access Safety](#data-and-access-safety)
+    - [Stability and Income for Vendors](#stability-and-income-for-vendors)
+    - [Privacy Policy, User Data, and All About That](#privacy-policy-user-data-and-all-about-that)
+
+2. [Components](#components)
+    - [Everscale](#everscale)
+    - [Node](#node)
+    - [Device](#device)
+    - [Vendor](#vendor)
+    - [DSM (Data Storage Management)](#dsm-data-storage-management)
+
+3. [How to Use](#how-to-use)
+    - [Node](#node-1)
+    - [Device Management](#device-management)
+    - [Device Client for Entware / OpenWRT](#device-client-for-entware-openwrt)
+
+4. [All About Device Data Stored in Blockchain](#all-about-device-data-stored-in-blockchain)
+    - [Device Model](#device-model)
+    - [Device Group Model](#device-group-model)
+    - [Device Operations](#device-operations)
+    - [Two-Way Synchronization](#two-way-synchronization)
+    - [Safety](#safety)
+
+5. [Smart Contracts](#smart-contracts)
+    - [Elector](#elector)
+    - [Node](#node-2)
+    - [Vendor](#vendor-1)
+    - [Device Group](#device-group)
+    - [Device](#device-1)
+    - [Custom Smart Contracts](#custom-smart-contracts)
+
+6. [Are You a Vendor?](#are-you-a-vendor)
+    - [Why Customers Need It](#why-customers-need-it)
+    - [Additional Income for Vendors](#additional-income-for-vendors)
+    - [Legal Issues](#legal-issues)
+        - [How IOT4B Protects Your Business from Lawsuits](#how-iot4b-protects-your-business-from-lawsuits)
+
+7. [Project Status](#project-status)
+
 # Introduction of IOT4B
 
 ## Why blockchain?
