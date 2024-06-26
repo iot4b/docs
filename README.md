@@ -19,11 +19,16 @@ IOT4B is a decentralized blockchain-based solution designed for smart devices. B
 - Hostile software cannot damage or affect your data due to blockchain encryption, making unauthorized access as difficult as hacking the entire blockchain with brute force.
 
 # Components
+- Everscale: The core blockchain platform.
+- Node: Gateways between IoT devices and Everscale.
+- Device: Smart devices connected to the network.
+- Vendor: Manufacturers of smart devices.
+- DSM (Data Storage Management): System for storing telemetry, configurations, and events.
 
 # How to use
 
 ## Node
-Here you can read how to install your own node.
+Here you can read how to install your own node. The node acts as a gateway between IoT devices and Everscale, providing data aggregation, smart contract initialization, access control, and notification services.
 
 ## Device management
 Install the app to manage your devices easily.
@@ -35,36 +40,36 @@ Learn how to download and run the IOT4B Device Client on your OpenWRT router.
 # All about Device data stored in blockchain
 
 ## Device model
-Detailed information about the data model for devices.
+- Contains information about device attributes, encrypted data for vendors, and links to users, vendors, and nodes.
 
 ## Device Group model
-Information on how device groups are structured and managed.
+- Allows grouping of devices for collective management and monitoring.
 
 ## Device operations
-Explanation of the operations that can be performed on devices.
+- Provides methods for managing devices via smart contracts (e.g., firmware updates, reboots).
 
 ## Two-way synchronization
-How data is synchronized between devices and the blockchain.
+- Ensures real-time data synchronization between devices and the blockchain.
 
 ## Safety
-Ensuring the safety of device data through encryption and decentralized storage.
+- Data encryption and decentralized storage guarantee security and stability.
 
 # Smart contracts
 
 ## Elector
-Smart contracts related to the election process within the network.
+- Manages node elections and transaction processing.
 
 ## Node
-Smart contracts managing node operations.
+- Handles node-specific operations and interactions.
 
 ## Vendor
-Contracts that manage vendor-specific operations and data.
+- Manages vendor-specific operations, including data access and revenue distribution.
 
 ## Device Group
-Contracts related to the management of device groups.
+- Handles operations related to groups of devices.
 
 ## Device
-Smart contracts for individual device management.
+- Manages individual device operations and data.
 
 ## Custom smart contracts
 You can create your own smart contracts to extend current device functions or integrate devices with each other and third-party systems.
@@ -85,3 +90,6 @@ By transferring data control to the users, vendors are no longer responsible for
 ## Project status
 Current project status: final stage of MVP.
 We are ready to cooperate with vendors.
+
+
+
