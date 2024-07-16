@@ -7,11 +7,6 @@
     - [Privacy Policy, User Data, and All About That](#privacy-policy-user-data-and-all-about-that)
 
 2. [Components](#components)
-    - [Everscale](#everscale)
-    - [Node](#node)
-    - [Device](#device)
-    - [Vendor](#vendor)
-    - [DSM (Data Storage Management)](#dsm-data-storage-management)
 
 3. [How to Use](#how-to-use)
     - [Node](#node-1)
@@ -61,8 +56,9 @@ IOT4B is a decentralized blockchain-based solution designed for smart devices. B
 - Everscale: The core blockchain platform.
 - Node: Gateways between IoT devices and Everscale.
 - Device: Smart devices connected to the network.
+- Device Group: group of devices for management.
 - Vendor: Manufacturers of smart devices.
-- DSM (Data Storage Management): System for storing telemetry, configurations, and events.
+[Terminology](*https://github.com/ever-iot/docs/blob/main/terminology.md)
 
 # How to use
 
