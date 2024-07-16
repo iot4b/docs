@@ -18,18 +18,11 @@
     - [Device Client for Entware / OpenWRT](#device-client-for-entware-openwrt)
 
 4. [All About Device Data Stored in Blockchain](#all-about-device-data-stored-in-blockchain)
-    - [Device Model](#device-model)
-    - [Device Group Model](#device-group-model)
     - [Device Operations](#device-operations)
     - [Two-Way Synchronization](#two-way-synchronization)
     - [Safety](#safety)
 
 5. [Smart Contracts](#smart-contracts)
-    - [Elector](#elector)
-    - [Node](#node-2)
-    - [Vendor](#vendor-1)
-    - [Device Group](#device-group)
-    - [Device](#device-1)
     - [Custom Smart Contracts](#custom-smart-contracts)
 
 6. [Are You a Vendor?](#are-you-a-vendor)
@@ -81,12 +74,6 @@ Learn how to download and run the IOT4B Device Client on your OpenWRT router.
 
 # All about Device data stored in blockchain
 
-## Device model
-- Contains information about device attributes, encrypted data for vendors, and links to users, vendors, and nodes.
-
-## Device Group model
-- Allows grouping of devices for collective management and monitoring.
-
 ## Device operations
 - Provides methods for managing devices via smart contracts (e.g., firmware updates, reboots).
 
@@ -97,21 +84,6 @@ Learn how to download and run the IOT4B Device Client on your OpenWRT router.
 - Data encryption and decentralized storage guarantee security and stability.
 
 # Smart contracts
-
-## Elector
-- Manages node elections and transaction processing.
-
-## Node
-- Handles node-specific operations and interactions.
-
-## Vendor
-- Manages vendor-specific operations, including data access and revenue distribution.
-
-## Device Group
-- Handles operations related to groups of devices.
-
-## Device
-- Manages individual device operations and data.
 
 ## Custom smart contracts
 You can create your own smart contracts to extend current device functions or integrate devices with each other and third-party systems.
