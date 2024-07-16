@@ -1,31 +1,29 @@
-### Общее
+### General
 
-| Термин | Описание |
+| Term | Description |
 | --- | --- |
-| **IOT Node** | Гейтвей между IoT устройствами и Everscale. Обеспечивает физическое соединение с устройствами, двусторонний обмен данными, агрегацию телеметрии, инициализацию подписания смарт-контрактов, контроль доступа и работы нод. |
-| **Everscale** | Блокчейн-платформа, используемая для хранения данных и транзакций, связанных с IoT устройствами. |
-| **Data Storage** | Хранилище данных для телеметрии, конфигураций и событий. |
-| **DAPP** | Приложение для управления IoT устройствами и взаимодействия с Everscale. |
-| **NodeList Syncer** | Блок логики, отвечающий за синхронизацию списка нод и мониторинг их работоспособности. |
-| **Everscale API** | API для трансляции транзакций между устройством и Everscale. |
-| **Device API PROXY** | API для трансляции команд между DAPP и устройством. |
-| **Aliver** | Механизм поддержания двустороннего коннекта с устройством. |
-| **COAP PROTOCOL** | Протокол обмена данными между устройством и нодой, основанный на UDP. |
-| **IOT/EVER SDK** | SDK для встраивания в устройства и взаимодействия с Everscale. |
-| **Private Key Storage** | Защищенное хранилище приватного ключа на устройстве. |
-| **Data Synchronization** | Процесс синхронизации данных между нодами, устройствами и смарт-контрактами. |
-| **Encryption** | Процесс шифрования запросов и команд для обеспечения безопасности данных. |
+| **IOT Node** | Gateway between IoT devices and Everscale. Provides physical connection with devices, two-way data exchange, telemetry aggregation, smart contract signing initiation, access control, and node operation management. |
+| **Everscale** | Blockchain platform used for storing data and transactions related to IoT devices. |
+| **Data Storage** | Data storage for telemetry, configurations, and events. |
+| **DAPP** | Application for managing IoT devices and interacting with Everscale. |
+| **NodeList Syncer** | Logic block responsible for syncing the node list and monitoring their operability. |
+| **Everscale API** | API for transmitting transactions between the device and Everscale. |
+| **Device API Proxy** | API for transmitting commands between the DAPP and the device. |
+| **Aliver** | Mechanism for maintaining a two-way connection with the device. |
+| **COAP Protocol** | Protocol for data exchange between the device and the node, based on UDP. |
+| **IOT/EVER SDK** | SDK for embedding in devices and interacting with Everscale. |
+| **Private Key Storage** | Secure storage of the private key on the device. |
+| **Data Synchronization** | Process of data synchronization between nodes, devices, and smart contracts. |
+| **Encryption** | Process of encrypting requests and commands to ensure data security. |
 
-### Смарт-контракты
+### Smart Contracts
 
-| Термин | Описание |
+| Term | Description |
 | --- | --- |
-| **Node Contract** | Смарт-контракт для управления нодами, синхронизации списка нод и мониторинга их работоспособности. |
-| **Elector Contract** | Контракт, аналогичный контракту валидаторов, но использующий другие критерии для выбора участников. |
-| **Vendor Contract** | Смарт-контракт вендора для получения награждений и доступа к определенным данным на устройствах. |
-| **Device Group** | Смарт-контракт объединяющий группу девайсов |
-| **Device Contract** | Смарт-контракт устройства, хранящий характеристики, зашифрованные данные, привязку к пользователям и вендорам, управление девайсом и списание платы за обслуживание. |
-| **Owner Contract** | Смарт-контракт владельца устройства, обычно представляет собой кошелек пользователя. |
-| **Notificator** | Смарт-контракт или внешний сервис для отправки уведомлений пользователям. |
-
-
+| **Node Contract** | Smart contract for managing nodes, syncing the node list, and monitoring their operability. |
+| **Elector Contract** | Contract similar to validator contracts but uses different criteria for participant selection. |
+| **Vendor Contract** | Vendor smart contract for receiving rewards and accessing certain data on devices. |
+| **Device Group** | Smart contract that unites a group of devices. |
+| **Device Contract** | Device smart contract storing characteristics, encrypted data, bindings to users and vendors, device management, and service fee deductions. |
+| **Owner Contract** | Device owner smart contract, usually representing a user wallet. |
+| **Notificator** | Smart contract or external service for sending notifications to users. |
