@@ -1,4 +1,12 @@
+
 # Smart Contracts
+1. [Device Contract](#Device Contract)
+2. [Device Group Contract](#Device Group Contract)
+3. [Elector Contract](#Elector Contract)
+4. [Node Contract](#Node Contract)
+5. [Vendor Contract](#Vendor Contract)
+6. [Owner Contract](#Owner Contract)
+
 ### Device Contract
 
 **Fields:**
