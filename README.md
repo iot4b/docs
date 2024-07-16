@@ -58,6 +58,7 @@ IOT4B is a decentralized blockchain-based solution designed for smart devices. B
 - Device: Smart devices connected to the network.
 - Device Group: group of devices for management.
 - Vendor: Manufacturers of smart devices.
+
 [Terminology](https://github.com/ever-iot/docs/blob/main/terminology.md)
 
 # How to use
