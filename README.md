@@ -1,5 +1,6 @@
 # IOT4B General information
 1. [Introduction](#introduction)
+    - [Terminology](*https://github.com/ever-iot/docs/blob/main/terminology.md)
     - [Why Blockchain?](#why-blockchain)
     - [Data and Access Safety](#data-and-access-safety)
     - [Stability and Income for Vendors](#stability-and-income-for-vendors)
@@ -34,6 +35,9 @@
 7. [Project Status](#project-status)
 
 # Introduction of IOT4B
+
+## Terminology
+[Terminology](*https://github.com/ever-iot/docs/blob/main/terminology.md)
 
 ## Why blockchain?
 IOT4B is a decentralized blockchain-based solution designed for smart devices. Blockchain technology ensures that all backend and user data is stored encrypted in a public blockchain, providing unparalleled security and access control.
