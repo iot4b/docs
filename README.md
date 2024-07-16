@@ -1,5 +1,4 @@
-# Table of Contents for README.md
-
+# IOT4B General information
 1. [Introduction](#introduction)
     - [Why Blockchain?](#why-blockchain)
     - [Data and Access Safety](#data-and-access-safety)
