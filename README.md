@@ -85,7 +85,7 @@ Learn how to download and run the IOT4B Device Client on your OpenWRT router.
 
 # Smart contracts
 
-[Follow the link](https://github.com/ever-iot/docs/blob/main/smart-conracts.md#smart-contracts)
+[Follow the link](https://github.com/ever-iot/docs/blob/main/Contracts.md#smart-contracts)
 
 ## Custom smart contracts
 You can create your own smart contracts to extend current device functions or integrate devices with each other and third-party systems.
