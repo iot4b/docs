@@ -5,13 +5,18 @@
 | **IOT Node** | Gateway between IoT devices and Everscale. Provides physical connection with devices, two-way data exchange, telemetry aggregation, smart contract signing initiation, access control, and node operation management. |
 | **Everscale** | Blockchain platform used for storing data and transactions related to IoT devices. |
 | **Data Storage** | Data storage for telemetry, configurations, and events. |
-| **DAPP** | Application for managing IoT devices and interacting with Everscale. |
-| **NodeList Syncer** | Logic block responsible for syncing the node list and monitoring their operability. |
+| **APP** | Application for managing IoT devices and interacting with Everscale. |
 | **Everscale API** | API for transmitting transactions between the device and Everscale. |
+| **IOT/EVER SDK** | SDK for embedding in devices and interacting with Everscale. |
+
+
+### Tech
+| Term | Description |
+| --- | --- |
+| **COAP Protocol** | Protocol for data exchange between the device and the node, based on UDP. |
 | **Device API Proxy** | API for transmitting commands between the DAPP and the device. |
 | **Aliver** | Mechanism for maintaining a two-way connection with the device. |
-| **COAP Protocol** | Protocol for data exchange between the device and the node, based on UDP. |
-| **IOT/EVER SDK** | SDK for embedding in devices and interacting with Everscale. |
+| **NodeList Syncer** | Logic block responsible for syncing the node list and monitoring their operability. |
 | **Private Key Storage** | Secure storage of the private key on the device. |
 | **Data Synchronization** | Process of data synchronization between nodes, devices, and smart contracts. |
 | **Encryption** | Process of encrypting requests and commands to ensure data security. |
