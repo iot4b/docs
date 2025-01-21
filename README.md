@@ -35,22 +35,22 @@
 [Terminology](https://github.com/ever-iot/docs/blob/main/terminology.md)
 
 ## Why blockchain?
-IOT4B is a decentralized blockchain-based solution designed for smart devices. Blockchain technology ensures that all backend and user data is stored encrypted in a public blockchain, providing unparalleled security and access control.
+The use of blockchain technology ensures that all backend and user data is stored in an encrypted format within a public blockchain, providing unparalleled security and access control.
 
 ## Data and access safety
-- Your data is encrypted with the same key as your wallet.
-- You can access it without any intermediates at any time.
-- No third party can change, damage, or erase your data, nor restrict your access to it.
-- No unauthorized access is possible, ensuring complete data safety.
+- Your data is encrypted using the same key as your wallet, ensuring a high level of security.
+- You can access it at any time without intermediaries.
+- No third party can alter, damage, or erase your data, nor can restrict your access to it.
+- Unauthorized access is impossible, guaranteeing complete data safety.
 
 ## Stability and income for vendors
-- Vendors no longer need to pay for backend support, servers, storage, and compliance.
-- Implementing our solution reduces costs and enables vendors to receive a share of subscription payments from users, facilitated by transparent smart contracts.
+- Vendors no longer need to pay for backend support, servers, storage, or compliance.
+- By implementing our solution, vendors can reduce costs and receive a share of subscription payments from users, facilitated by transparent smart contracts.
 
 ## Privacy policy, user data, and all about that
-- No third party can track your activity without your knowledge and permission.
+- No third party can track your activity without your knowledge and consent.
 - No third party can leak any of your data.
-- Hostile software cannot damage or affect your data due to blockchain encryption, making unauthorized access as difficult as hacking the entire blockchain with brute force.
+- Hostile software cannot damage or compromise your data due to blockchain encryption, making unauthorized access as difficult as hacking the entire blockchain through brute force.
 
 # Components
 - Everscale: The core blockchain platform.
@@ -64,10 +64,10 @@ IOT4B is a decentralized blockchain-based solution designed for smart devices. B
 # How to use
 
 ## Node
-Here you can read how to install your own node. The node acts as a gateway between IoT devices and Everscale, providing data aggregation, smart contract initialization, access control, and notification services.
+In this guide, you will learn how to install your own node. The node serves as a gateway between IoT devices and Everscale, facilitating data aggregation, smart contract initialization, access control, and notification services.
 
 ## Device management
-Install the app to manage your devices easily.
+Install the mobile application to manage your devices easily.
 
 ## Device client for Entware / OpenWRT
 About [Entware](https://github.com/Entware) and [OpenWRT](https://github.com/openwrt).
@@ -82,31 +82,30 @@ Learn how to download and run the IOT4B Device Client on your OpenWRT router.
 - Ensures real-time data synchronization between devices and the blockchain.
 
 ## Safety
-- Data encryption and decentralized storage guarantee security and stability.
+- Data encryption and decentralized storage ensure both security and stability.
 
 # Smart contracts
 
 [Follow the link](https://github.com/ever-iot/docs/blob/main/Contracts.md#smart-contracts)
 
 ## Custom smart contracts
-You can create your own smart contracts to extend current device functions or integrate devices with each other and third-party systems.
+You can create your own smart contracts to enhance the functionality of existing devices or to integrate devices with one another and with third-party systems.
 
 # Are you a vendor?
 
 ## Why customers need it
-Our solution allows customers to take full control of their data and devices, providing transparency and eliminating concerns about inappropriate data use by vendors.
+Our solution empowers customers to take full control of their data and devices, ensuring transparency and alleviating concerns about inappropriate data usage by vendors.
 
 ## Additional income for vendors
-Implementing our solution not only reduces costs but also allows vendors to earn from subscription payments through smart contracts.
+Implementing our solution not only reduces costs but also enables vendors to generate revenue from subscription payments through smart contracts.
 
 ## Legal issues
 
 ### How IOT4B protects your business from lawsuits
-By transferring data control to the users, vendors are no longer responsible for data management, simplifying compliance with regulations like GDPR.
+By transferring data control to users, vendors are no longer responsible for data management, which simplifies compliance with regulations such as GDPR.
 
 ## Project status
-Current project status: final stage of MVP.
-We are ready to cooperate with vendors.
+We are in the final stages of developing our Minimum Viable Product (MVP) and are ready to collaborate with vendors.
 
 
 
