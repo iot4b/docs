@@ -8,7 +8,7 @@ The main target of alpha-testing is to research for an additional cases of usage
 ## Install app guide
 First, install a mobile application for your platform - iOS / Android. Links:
 * Android - https://appdistribution.firebase.dev/i/89e35cb759f4a089
-* iOS - 
+* iOS - https://testflight.apple.com/join/R7MyUZXv
 
 You have to accept invitation to join Alpha testing.
 
