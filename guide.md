@@ -23,16 +23,16 @@ Minimum requirements: Keenetic device with USB port.
 
 1. Download the corresponding module from this repo on your computer - https://github.com/ever-iot/docs/blob/main/packages/iot4b_keenetic.ipk
 2. Make sure your Keenetic device and computer are in one network.
-4. Make sure your router has an OPKG module installed for the router's admin tools
-5. Install Entware to your router. Please refer to Keenetic's guide https://help.keenetic.com/hc/ru/articles/360021214160.
+3. Make sure your router has an OPKG module installed for the router's admin tools
+4. Install Entware to your router. Please refer to Keenetic's guide https://help.keenetic.com/hc/ru/articles/360021214160.
 
-6. On your computer execute following script in Command Line(Win) or Terminal(Mac and Linux): ```scp iot4b_keenetic.ipk root@192.168.X.X:/tmp/ ```
+5. On your computer execute following script in Command Line(Win) or Terminal(Mac and Linux): ```scp iot4b_keenetic.ipk root@192.168.X.X:/tmp/ ```
 where 192.168.X.X is your Keenetic router address
-7. Open your router with SSH:
+6. Open your router with SSH:
 ```ssh root@192.168.X.X```
-8. In your SSH session run 
+7. In your SSH session run 
 ```opkg install /tmp/iot4b_keenetic.ipk```
-9. In the setup wizard enter the device group address and owner address, the mobile application will show you after registration
+8. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
 
 ### OpenWrt
 This is a guide of installation on OpenWRT devices. 
@@ -46,18 +46,18 @@ where 192.168.X.X is your OpenWRT router address
 ```ssh root@192.168.X.X```
 5. In your SSH session run 
 ```opkg install /tmp/iot4b_openwrt.ipk```
-6. In the setup wizard enter the device group address and owner address, the mobile application will show you after registration
+6. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
 
 
 ## How to add a deposit
-In the application, click Create New Devices Group. In its details, you can get the group's address. Then transfer your Ever funds to this address.
-**We will cover all your expenses ever in the app during the alpha test. All required fund will be transferred to your group automatically.**
+For alfa-test users all required funds will be transferred to the group and devices automatically
 
 ## How to add a device to the application
-1. Create a group or use existing group. Copy its address
-2. Setup a module with group address and owner address
-3. After our module setup is complete, the device has its address number. Find it in module folder, device.contract.*.json and copy it
-4. Go back to module application, click add device button, and enter a device's address into the field.
+1. Create a group or use existing group.
+2. Click "+" button to add a device.
+3. On the device, set up a module with group address and owner public key that are shown on the "Add Device" app screen.
+4. After our module setup is complete, it will display the device smart contract address.
+5. Copy the device contract address above, enter it into the address field in the mobile app, and then click "Add Device".
 
 ## Device management
 All the device management tools are placed in device details view. Simply click device name in Group list, and you will get it.
