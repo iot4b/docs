@@ -21,7 +21,7 @@ To control your device with our service, you have to install some components. Cu
 This is a guide to installation on Keenetic devices. 
 Minimum requirements: Keenetic device with USB port.
 
-1. Download the corresponding module from this repo on your computer
+1. Download the corresponding module from this repo on your computer - https://github.com/ever-iot/docs/blob/main/packages/iot4b_keenetic.ipk
 2. Make sure your Keenetic device and computer are in one network.
 4. Make sure your router has an OPKG module installed for the router's admin tools
 5. Install Entware to your router. Please refer to Keenetic's guide https://help.keenetic.com/hc/ru/articles/360021214160.
@@ -38,7 +38,7 @@ where 192.168.X.X is your Keenetic router address
 This is a guide of installation on OpenWRT devices. 
 Minimum requirements: OpenWRT device with USB port.
 
-1. Download the corresponding module from this repo on your computer
+1. Download the corresponding module from this repo on your computer - https://github.com/ever-iot/docs/blob/main/packages/iot4b_openwrt.ipk
 2. Make sure your OpenWRT device and computer are in one network.
 3. On your computer execute following script in Command Line(Win) or Terminal(Mac and Linux): ```scp iot4b_openwrt.ipk root@192.168.X.X:/tmp/ ```
 where 192.168.X.X is your OpenWRT router address
