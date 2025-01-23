@@ -51,10 +51,13 @@ where 192.168.X.X is your OpenWRT router address
 
 ## How to add a deposit
 In the application, click Create New Devices Group. In its details, you can get the group's address. Then transfer your Ever funds to this address.
-We will cover all your expenses ever in the app during the alpha test. Just let us know your device group address.
+**We will cover all your expenses ever in the app during the alpha test. All required fund will be transferred to your group automatically.**
 
 ## How to add a device to the application
-After our module setup is complete, the device has its address number. Just copy this address from a device disk ??? and go to the application. Then click add device button, and enter a device's address into the field.  
+1. Create a group or use existing group. Copy its address
+2. Setup a module with group address and owner address
+3. After our module setup is complete, the device has its address number. Find it in module folder, device.contract.*.json and copy it
+4. Go back to module application, click add device button, and enter a device's address into the field.
 
 ## Device management
 All the device management tools are placed in device details view. Simply click device name in Group list, and you will get it.
