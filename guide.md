@@ -53,15 +53,20 @@ where 192.168.X.X is your OpenWRT router address
 For alfa-test users all required funds will be transferred to the group and devices automatically
 
 ## How to add a device to the application
-1. Create a group or use existing group.
-2. Click "+" button to add a device.
+1. Create a group by clicking "Add Group" button or use existing group.
+2. Click "+" button to add a device in a group.
 3. On the device, set up a module with group address and owner public key that are shown on the "Add Device" app screen.
 4. After our module setup is complete, it will display the device smart contract address.
 5. Copy the device contract address above, enter it into the address field in the mobile app, and then click "Add Device".
 
 ## Device management
-All the device management tools are placed in device details view. Simply click device name in Group list, and you will get it.
-You can send commands to your device with Send CMD option, lock and unlock your device by using a toggle and view a history of events.
+All the device management tools are placed in device details view. Simply click device name in Group list, and you will get it. Now available:
+* send commands to your device with Send CMD option
+* lock and unlock your device by using a toggle
+* view a history of events
+* enable or disable saving events
+* take a look on details of fund usage in blockchain view. Just click on address or group address
+* rename device in the application (takes some time for new name to apply)
 ## Owners management
 
 # How it works
