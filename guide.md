@@ -16,7 +16,10 @@ You have to accept an invitation to join Alpha testing.
 In the application, you can create a new account with a seed phrase, or restore an existing account. If you never used our service before, click 'Create New Account' and follow the steps.
 
 ## Install device module
-To control your device with our service, you have to install some components. Currently, two types of devices are supported.
+To control your device with our service, you have to install some components. Currently, two types of devices are supported. You can download an installation file by clicking this button at link, which is provided next
+
+<img width="235" alt="git-download" src="https://github.com/user-attachments/assets/8013a4e3-1cd3-4751-99b9-a93afb26e54e" />
+
 ### Keenetic
 This is a guide to installation on Keenetic devices. 
 Minimum requirements: Keenetic device with USB port.
