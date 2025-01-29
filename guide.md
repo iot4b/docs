@@ -16,15 +16,13 @@ You have to accept an invitation to join Alpha testing.
 In the application, you can create a new account with a seed phrase, or restore an existing account. If you never used our service before, click 'Create New Account' and follow the steps.
 
 ## Install device module
-To control your device with our service, you have to install some components. Currently, two types of devices are supported. You can download an installation file by clicking this button at link, which is provided next
-
-<img width="235" alt="git-download" src="https://github.com/user-attachments/assets/8013a4e3-1cd3-4751-99b9-a93afb26e54e" />
+To control your device with our service, you have to install some components. Currently, two types of devices are supported.
 
 ### Keenetic
 This is a guide to installation on Keenetic devices. 
 Minimum requirements: Keenetic device with USB port.
 
-1. Download the corresponding module from this repo on your computer - https://github.com/ever-iot/docs/blob/main/packages/iot4b_keenetic.ipk
+1. Download the corresponding module from this link to your computer - [iot4b_keenetic.ipk](https://raw.githubusercontent.com/ever-iot/docs/refs/heads/main/packages/iot4b_keenetic.ipk)
 2. Make sure your Keenetic device and computer are in one network.
 3. Make sure your router has an OPKG module installed for the router's admin tools
 4. Install Entware to your router. Please refer to Keenetic's guide https://help.keenetic.com/hc/ru/articles/360021214160.
@@ -42,7 +40,7 @@ where 192.168.X.X is your Keenetic router address
 This is a guide of installation on OpenWRT devices. 
 Minimum requirements: OpenWRT device with USB port.
 
-1. Download the corresponding module from this repo on your computer - https://github.com/ever-iot/docs/blob/main/packages/iot4b_openwrt.ipk
+1. Download the corresponding module from this link to your computer - [iot4b_openwrt.ipk](https://raw.githubusercontent.com/ever-iot/docs/refs/heads/main/packages/iot4b_openwrt.ipk)
 2. Make sure your OpenWRT device and computer are in one network.
 3. Transfer installation file to required directory on your router. You can use built-in web admin interface to do this. Also, you can execute following script in Command Line(Windows) or Terminal(Mac and Linux) on your computer: ```scp iot4b_openwrt.ipk admin@192.168.X.X:/tmp/ ```
 where 192.168.X.X is your OpenWRT router address
