@@ -35,10 +35,10 @@
 [Terminology](https://github.com/ever-iot/docs/blob/main/terminology.md)
 
 ## Why blockchain?
-The use of blockchain technology ensures that all backend and user data is stored in an encrypted format within a public blockchain, providing unparalleled security and access control. The use of smart contracts enables the creation of rules and scenarios to extend the capabilities of IoT devices and process data.
+Blockchain technology ensures that all backend and user data is encrypted within a public blockchain, providing unparalleled security and access control. Using of smart contracts enables the creation of rules and scenarios to extend the capabilities of IoT devices and process data.
 
 ## Data and access safety for users
-- Your IOT data is encrypted using the same key as your wallet, ensuring a high level of security.
+- Your IoT data is encrypted using the same key as your wallet, ensuring a high level of security.
 - You can access it at any time without intermediaries.
 - No third party can alter, damage, or erase your data, nor can restrict your access to it.
 - Unauthorized access is impossible, guaranteeing complete data safety.
@@ -58,7 +58,7 @@ The use of blockchain technology ensures that all backend and user data is store
 - Everscale: The core blockchain platform.
 - Node: Gateways between IoT devices and Everscale.
 - Device: Smart devices connected to the network.
-- Device Group: group of devices for management.
+- Device Group: a group of devices for management.
 - Vendor: Manufacturers of smart devices.
 
 [Terminology](https://github.com/ever-iot/docs/blob/main/terminology.md)
@@ -66,7 +66,7 @@ The use of blockchain technology ensures that all backend and user data is store
 # How to use
 
 ## Node
-In this guide, you will learn how to install your own node. The node serves as a gateway between IoT devices and Everscale, facilitating data aggregation, smart contract initialization, access control, and notification services.
+In this guide, you will learn how to install your node. The node serves as a gateway between IoT devices and Everscale, facilitating data aggregation, smart contract initialization, access control, and notification services.
 
 ## Device management
 Install the mobile application to manage your devices easily.
@@ -75,10 +75,10 @@ Install the mobile application to manage your devices easily.
 About [Entware](https://github.com/Entware) and [OpenWRT](https://github.com/openwrt).
 [Alfa-test Guide](https://github.com/ever-iot/docs/blob/main/guide.md)
 
-# All about Device data stored in blockchain
+# All about Device data stored in the blockchain
 
 ## Device operations
-- Provides methods for managing devices via smart contracts (e.g., firmware updates, reboots).
+- Provides methods for managing devices via smart contracts (e.g., firmware updates, and reboots).
 
 ## Two-way synchronization
 - Ensures real-time data synchronization between devices and the blockchain.
@@ -91,7 +91,7 @@ About [Entware](https://github.com/Entware) and [OpenWRT](https://github.com/ope
 [Follow the link](https://github.com/ever-iot/docs/blob/main/Contracts.md#smart-contracts)
 
 ## Custom smart contracts
-You can create your own smart contracts to enhance the functionality of existing devices or to integrate devices with one another and with third-party systems.
+You can create smart contracts to enhance the functionality of existing devices or to integrate devices with third-party systems.
 
 # Are you a vendor?
 
