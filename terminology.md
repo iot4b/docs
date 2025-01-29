@@ -30,5 +30,5 @@
 | **Vendor Contract** | Vendor smart contract for receiving rewards and accessing certain data on devices. |
 | **Device Group** | Smart contract that unites a group of devices. |
 | **Device Contract** | Device smart contract storing characteristics, encrypted data, bindings to users and vendors, device management, and service fee deductions. |
+| Device API Contract | The Device API contract describes the device management interface for a specific model and firmware version. It is created and maintained by the vendor. |
 | **Owner Contract** | Device owner smart contract, usually representing a user wallet. |
-| **Notificator** | Smart contract or external service for sending notifications to users. |

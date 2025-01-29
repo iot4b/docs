@@ -19,6 +19,7 @@
 | group              | address                  | Address of DeviceGroup contract                      |
 | node               | address                  | Current node address                                 |
 | elector            | address                  | Elector contract address                             |
+| deviceAPI          | address                  | DeviceAPI contract address                           |
 | vendor             | address                  | Vendor contract address                              |
 | vendorName         | string                   | Readable name of vendor                              |
 | vendorData         | string                   | Vendor data                                          |

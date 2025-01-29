@@ -35,22 +35,24 @@
 [Terminology](https://github.com/ever-iot/docs/blob/main/terminology.md)
 
 ## Why blockchain?
-The use of blockchain technology ensures that all backend and user data is stored in an encrypted format within a public blockchain, providing unparalleled security and access control.
+The use of blockchain technology ensures that all backend and user data is stored in an encrypted format within a public blockchain, providing unparalleled security and access control. The use of smart contracts enables the creation of rules and scenarios to extend the capabilities of IoT devices and process data.
 
-## Data and access safety
-- Your data is encrypted using the same key as your wallet, ensuring a high level of security.
+## Data and access safety for users
+- Your IOT data is encrypted using the same key as your wallet, ensuring a high level of security.
 - You can access it at any time without intermediaries.
 - No third party can alter, damage, or erase your data, nor can restrict your access to it.
 - Unauthorized access is impossible, guaranteeing complete data safety.
 
-## Stability and income for vendors
-- Vendors no longer need to pay for backend support, servers, storage, or compliance.
-- By implementing our solution, vendors can reduce costs and receive a share of subscription payments from users, facilitated by transparent smart contracts.
 
 ## Privacy policy, user data, and all about that
 - No third party can track your activity without your knowledge and consent.
 - No third party can leak any of your data.
 - Hostile software cannot damage or compromise your data due to blockchain encryption, making unauthorized access as difficult as hacking the entire blockchain through brute force.
+
+## Stability and income for vendors
+- Vendors no longer need to pay for backend support, servers, storage, or compliance.
+- By implementing our solution, vendors can reduce costs and receive a share of subscription payments from users, facilitated by transparent smart contracts.
+- By delegating the responsibility for storing user data to the blockchain, the vendor safeguards itself from liability for breaches and the necessity to comply with diverse personal data storage regulations across different countries.
 
 # Components
 - Everscale: The core blockchain platform.
@@ -71,7 +73,7 @@ Install the mobile application to manage your devices easily.
 
 ## Device client for Entware / OpenWRT
 About [Entware](https://github.com/Entware) and [OpenWRT](https://github.com/openwrt).
-Learn how to download and run the IOT4B Device Client on your OpenWRT router.
+[Alfa-test Guide](https://github.com/ever-iot/docs/blob/main/guide.md)
 
 # All about Device data stored in blockchain
 
