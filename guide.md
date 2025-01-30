@@ -1,6 +1,8 @@
 # What is it?
 The EverIOT is a blockchain-based distributed platform for your IOT devices. All data is securely stored and encrypted in blockchain. That keeps sensitive information as confidential.
 
+You can find more explanations on https://github.com/ever-iot/docs/blob/main/README.md
+
 ## Some introductory words
 It's mandatory to own your personal Keenetic or OpenWRT router to participate alpha test. 
 
@@ -72,8 +74,8 @@ All the device management tools are placed in device details view. Simply click 
 * enable or disable saving events
 * take a look on details of fund usage in blockchain view. Just click on address or group address
 * rename device in the application (takes some time for new name to apply)
+
 ## Owners management
 
-# How it works
-You can find more explanations on https://github.com/ever-iot/docs/blob/main/README.md
+
 # Roadmap
