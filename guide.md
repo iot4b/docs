@@ -40,7 +40,7 @@ where 192.168.X.X is your Keenetic router address
 
 ### OpenWrt
 This is a guide of installation on OpenWRT devices. 
-Minimum requirements: OpenWRT device with USB port.
+Minimum requirements: OpenWRT device.
 
 1. Download the corresponding module from this link to your computer - [iot4b_openwrt.ipk](https://raw.githubusercontent.com/ever-iot/docs/refs/heads/main/packages/iot4b_openwrt.ipk)
 2. Make sure your OpenWRT device and computer are in one network.
@@ -51,10 +51,11 @@ where 192.168.X.X is your OpenWRT router address
 5. In your SSH session run 
 ```opkg install /tmp/iot4b_openwrt.ipk```
 6. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
+7. Copy the device address and use it to add the device to the application.
 
 
 ## How to add a deposit
-For alfa-test users all required funds will be transferred to the group and devices automatically
+GOOD NEWS! For alfa-test users all required funds will be transferred to the group and devices automatically.
 
 ## How to add a device to the application
 1. Create a group by clicking "Add Group" button or use existing group.
