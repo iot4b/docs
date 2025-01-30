@@ -1,10 +1,12 @@
 # What is it?
-The EverIot is a blockchain-based platform for remote control of your devices. All data is securely stored and encrypted in blockchain. That keeps sensitive information as confidential.
+The EverIOT is a blockchain-based distributed platform for your IOT devices. All data is securely stored and encrypted in blockchain. That keeps sensitive information as confidential.
+
 ## Some introductory words
 It's mandatory to own your personal Keenetic or OpenWRT router to participate alpha test. 
 
 ## Alpha-test FAQ
 The main goal of alpha testing is to research additional use cases, fix bugs and errors, and improving UX.
+
 # Quick Start
 ## Install app guide
 First, install a mobile application for your platform - iOS / Android. Links:
