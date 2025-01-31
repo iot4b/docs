@@ -11,7 +11,7 @@ The common idea of connections can be shown in a simple line:
 
 
 
-You can find more detailed explanations on https://github.com/ever-iot/docs/blob/main/README.md
+You can find more detailed explanations on [our readme](https://github.com/ever-iot/docs/blob/main/README.md)
 
 ## How to start
 ‼️It's mandatory to own your personal Keenetic or OpenWRT router to participate alpha test. 
