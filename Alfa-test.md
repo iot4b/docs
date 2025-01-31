@@ -1,19 +1,30 @@
 # What is it?
-[IoT Device] <-UPD-> 
-       [Node: Gateway to blockchain and proxy for applications] <-GRPS-> 
-             [BlockChain: Secured data storage, Events processing and User access control]
+**The EverIOT is a blockchain-based distributed platform for your IOT devices 🌐📲**
 
-The EverIOT is a blockchain-based distributed platform for your IOT devices. All data is securely stored and encrypted in blockchain. That keeps sensitive information as confidential.
+All data is **🔐securely stored and encrypted in blockchain⛓️‍💥**. That keeps sensitive information as confidential.
 
-You can find more explanations on https://github.com/ever-iot/docs/blob/main/README.md
+The common idea of connections can be shown in a simple line:
 
-## Some introductory words
-It's mandatory to own your personal Keenetic or OpenWRT router to participate alpha test. 
+[**IoT Device**] <-UPDATE-> 
+       [**Node**: Gateway to blockchain and proxy for applications] <-gRPS-> 
+             [**BlockChain**: Secured data storage, Events processing and User access control]
+
+
+
+You can find more detailed explanations on https://github.com/ever-iot/docs/blob/main/README.md
+
+## How to start
+‼️It's mandatory to own your personal Keenetic or OpenWRT router to participate alpha test. 
+
+Then you have to pass 3 easy steps:
+1. Install [mobile app](https://github.com/ever-iot/docs/edit/main/Alfa-test.md#install-app-guide)
+2. Install [everIoT module](https://github.com/ever-iot/docs/edit/main/Alfa-test.md#install-device-module) to your router
+3. [Connect](https://github.com/ever-iot/docs/edit/main/Alfa-test.md#how-to-add-a-device-to-the-application) mobile app and device
 
 ## Alpha-test FAQ
-The main goal of alpha testing is to research additional use cases, fix bugs and errors, and improving UX.
+The main goal of alpha testing is to research additional use cases, fix bugs and errors, and improving UX. Please respond any test-related information you may find important to a Telegram channel [@iot4b](https://t.me/iot4b)
 
-# Quick Start
+# Quick Start instructions ✅
 ## Install app guide
 First, install a mobile application for your platform - iOS / Android. Links:
 * Android - https://appdistribution.firebase.dev/i/89e35cb759f4a089
@@ -62,7 +73,7 @@ where 192.168.X.X is your OpenWRT router address
 
 
 ## How to add a deposit
-GOOD NEWS! For alfa-test users all required funds will be transferred to the group and devices automatically.
+🎉 GOOD NEWS! For alfa-test users all required funds will be transferred to the group and devices automatically 🤑 
 
 ## How to add a device to the application
 1. Create a group by clicking "Add Group" button or use existing group.
@@ -83,6 +94,5 @@ All the device management tools are placed in device details view. Simply click 
 ## Owners management
 
 
-# Community
-
-https://t.me/iot4b - Telegram group for bug repports and questions. 
+## Community
+Feel confused with your questions? Feel free to ask on telegram [@iot4b](https://t.me/iot4b) - our official telegram group for bug reports and questions. 
