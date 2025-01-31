@@ -1,4 +1,8 @@
 # What is it?
+[IoT Device] <-UPD-> 
+       [Node: Gateway to blockchain and proxy for applications] <-GRPS-> 
+             [BlockChain: Secured data storage, Events processing and User access control]
+
 The EverIOT is a blockchain-based distributed platform for your IOT devices. All data is securely stored and encrypted in blockchain. That keeps sensitive information as confidential.
 
 You can find more explanations on https://github.com/ever-iot/docs/blob/main/README.md
