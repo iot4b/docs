@@ -83,4 +83,6 @@ All the device management tools are placed in device details view. Simply click 
 ## Owners management
 
 
-# Roadmap
+# Community
+
+https://t.me/iot4b - Telegram group for bug repports and questions. 
