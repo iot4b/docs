@@ -5,9 +5,9 @@ All data is **🔐securely stored and encrypted in blockchain⛓️‍💥**. Th
 
 The common idea of connections can be shown in a simple line:
 
-[**IoT Device**] <-UPDATE-> 
-       [**Node**: Gateway to blockchain and proxy for applications] <-gRPS-> 
-             [**BlockChain**: Secured data storage, Events processing and User access control]
+[**IoT Device**] <--> 
+    [**Node**: Gateway to blockchain and proxy for applications] <--> 
+         [**BlockChain**: Secured data storage, Events processing and User access control]
 
 
 
