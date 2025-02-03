@@ -1,6 +1,7 @@
 # What is it?
 **The EverIOT is a blockchain-based distributed platform for your IOT devices 🌐📲**
 
+We build the solution allowing users to store and process their sensitive IoT data encrypted in public blockchains, and manage their smart-devices securely.
 All data is **🔐securely stored and encrypted in blockchain⛓️‍💥**. That keeps sensitive information as confidential.
 
 The common idea of connections can be shown in a simple line:
