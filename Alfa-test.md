@@ -36,39 +36,23 @@ You have to accept an invitation to join Alpha testing.
 In the application, you can create a new account with a seed phrase, or restore an existing account. If you never used our service before, click 'Create New Account' and follow the steps.
 
 ## Install device module
-To control your device with our service, you have to install some components. Currently, two types of devices are supported.
+To control your device with our service, you have to install some components. Currently, two types of devices are supported: **Keenetic** with USB port and **OpenWRT**.
 
-### Keenetic
-This is a guide to installation on Keenetic devices. 
-Minimum requirements: Keenetic device with USB port.
+If you have a Keenetic device then make this steps first:
+1. Make sure your router has an OPKG module installed for the router's admin tools
+2. Install Entware to your router. Please refer to Keenetic's guide https://help.keenetic.com/hc/en-us/articles/360021214160
+3. After Entware is installed, note that when you log in to your router by ssh, `admin` user is used to log into keenetic default shell, but you need to log in to entware shell, and you need to do it with `root` user (default password: `keenetic`)
 
-1. Download the corresponding module from this link to your computer - [iot4b_keenetic.ipk](https://raw.githubusercontent.com/ever-iot/docs/refs/heads/main/packages/iot4b_keenetic.ipk)
-2. Make sure your Keenetic device and computer are in one network.
-3. Make sure your router has an OPKG module installed for the router's admin tools
-4. Install Entware to your router. Please refer to Keenetic's guide https://help.keenetic.com/hc/ru/articles/360021214160.
-5. After Entware is installed, note that when you log in to your router by ssh, `admin` user is used to log into keenetic default shell, but you need to log in to entware shell, and you need to do it with `root` user (default password: `keenetic`) 
-
-6. Transfer installation file to required directory on your router. You can use built-in web admin interface to do this. Also,
-you can execute following script in Command Line(Windows) or Terminal(Mac and Linux) on your computer: ```scp iot4b_keenetic.ipk root@192.168.X.X:/tmp/ ```
-where 192.168.X.X is your Keenetic router address
-7. Open your router with SSH:
-```ssh root@192.168.X.X```
-8. In your SSH session run 
-```opkg install /tmp/iot4b_keenetic.ipk```
-9. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
-
-### OpenWrt
-This is a guide of installation on OpenWRT devices. 
-Minimum requirements: OpenWRT device.
-
-1. Download the corresponding module from this link to your computer - [iot4b_openwrt.ipk](https://raw.githubusercontent.com/ever-iot/docs/refs/heads/main/packages/iot4b_openwrt.ipk)
-2. Make sure your OpenWRT device and computer are in one network.
-3. Transfer installation file to required directory on your router. You can use built-in web admin interface to do this. Also, you can execute following script in Command Line(Windows) or Terminal(Mac and Linux) on your computer: ```scp iot4b_openwrt.ipk root@192.168.X.X:/tmp/ ```
-where 192.168.X.X is your OpenWRT router address
+Then the common part for both types of routers: 
+1. Download the installation script from this link to your computer - [iot4b_install.sh](https://raw.githubusercontent.com/ever-iot/docs/refs/heads/main/packages/iot4b_install.sh)
+2. Make sure your router and computer are in one network.
+3. Transfer installation file to required directory on your router. You can use built-in web admin interface to do this. Also,
+you can execute following script in Command Line(Windows) or Terminal(Mac and Linux) on your computer: ```scp iot4b_install.sh root@192.168.X.X:/tmp/ ```
+where 192.168.X.X is your router address
 4. Open your router with SSH:
 ```ssh root@192.168.X.X```
 5. In your SSH session run 
-```opkg install /tmp/iot4b_openwrt.ipk```
+```chmod +x /tmp/iot4b_install.sh && /tmp/iot4b_install.sh```
 6. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
 7. Copy the device address and use it to add the device to the application.
 
