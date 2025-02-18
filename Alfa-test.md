@@ -41,20 +41,19 @@ To control your device with our service, you have to install some components. Cu
 If you have a Keenetic device then make this steps first:
 1. Make sure your router has an OPKG module installed for the router's admin tools
 2. Install Entware to your router. Please refer to Keenetic's guide https://help.keenetic.com/hc/en-us/articles/360021214160
-3. After Entware is installed, note that when you log in to your router by ssh, `admin` user is used to log into keenetic default shell, but you need to log in to entware shell, and you need to do it with `root` user (default password: `keenetic`)
+3. To log in to entware shell, do it with `root` user (default password: `keenetic`)
 
 Then the common part for both types of routers: 
-1. Download the installation script from this link to your computer - [iot4b_install.sh](https://raw.githubusercontent.com/ever-iot/docs/refs/heads/main/packages/iot4b_install.sh)
-2. Make sure your router and computer are in one network.
-3. Transfer installation file to required directory on your router. You can use built-in web admin interface to do this. Also,
-you can execute following script in Command Line(Windows) or Terminal(Mac and Linux) on your computer: ```scp iot4b_install.sh root@192.168.X.X:/tmp/ ```
-where 192.168.X.X is your router address
-4. Open your router with SSH:
+1. Open your router with SSH:
 ```ssh root@192.168.X.X```
-5. In your SSH session run 
-```chmod +x /tmp/iot4b_install.sh && /tmp/iot4b_install.sh```
-6. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
-7. Copy the device address and use it to add the device to the application.
+2. In your SSH session run commands:
+```sh
+opkg update
+opkg install curl
+/bin/sh -c "$(curl https://raw.githubusercontent.com/ever-iot/docs/main/packages/iot4b_install.sh)"
+```
+3. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
+4. Copy the device address and use it to add the device to the application.
 
 
 ## How to add a deposit
