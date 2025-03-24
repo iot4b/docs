@@ -7,8 +7,8 @@ We offer a solution that addresses these challenges. This is how you benefit as 
 - you can even start earning rewards for each device using the solution, instead of spending on supporting its activity
 - you can get more analytics tools allowing you to collect and use more market-related data, that was available to you before and adjust your sales strategy based on it
 - suppose you’re not a huge manufacturer yet. In that case, you can get more independence using our open-sourced solution. Without having to rely on 3d parties
-you can improve device functionality using cloud-based logic
-cross-devices integrations become easy and more efficient
+- you can improve device functionality using cloud-based logic
+- cross-devices integrations become easy and more efficient
 
 ### What's next?
 
