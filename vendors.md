@@ -9,5 +9,7 @@ you can get more analytics tools allowing you to collect and use more market-rel
 suppose you’re not a huge manufacturer yet. In that case, you can get more independence using our open-sourced solution. Without having to rely on 3d parties
 you can improve device functionality using cloud-based logic
 cross-devices integrations become easy and more efficient
+
 What's next?
+
 Feel free to reach us at mail@mail.com for any questions and guides to integrate our solution into your product
