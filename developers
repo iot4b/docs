@@ -1,0 +1,14 @@
+### Common schema
+  The heart of our system are nodes. Each device is registered on best node, and communicating with outer network through it. Nodes are connecting each other in blockchain 
+
+### Smartcontract interactions
+    
+
+### Node API
+  There are multiple things you can do with your device with node
+    - run command no your device
+    - switch lock/unlock
+    - change device's name and groups
+
+### Your own smartcontract
+  Intro for creating a smartcontracts
