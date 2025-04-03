@@ -1,0 +1,28 @@
+Payments in iot: {
+    shape: sequence_diagram
+    Device: IOT Device
+    Ever_Device: Ever_Device
+    Ever_Elector: Ever_Elector
+    Device_Group: Device_Group
+    Ever_Node: Ever_Node
+    Node: Node
+    
+
+
+    Device payments: {
+        Device -> Ever_Device: set current node
+        Ever_Device -> Ever_Elector: check the balance and reguest payments for ever
+        Ever_Elector -> Device_Group: get the money
+        Ever_Elector -> Ever_Device: send the confirm mesage
+        Ever_Device -> Ever_Node: Send confirm message about registration  
+    }
+
+    Node payments: {
+        Ever_Device -> Ever_Node: recive confirm message about registration
+        Ever_Node -> Node: catch the event
+        Node -> Node: set last payment time for device
+    }
+
+}
+
+
