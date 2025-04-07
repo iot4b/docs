@@ -1,0 +1,32 @@
+Payments in iot: {
+    shape: sequence_diagram
+
+    User: User
+    Bank: Bank
+    Payments_gateway: Payments_gateway
+    TRC_Wallet: TRC_Wallet
+    Device_Group: Device_Group 
+
+
+    User payments FIAT: {
+        User->Bank: send money with device group address as comment
+        Bank->Payments_gateway: send transaction info
+        Payments_gateway->Device_Group: send payment to device group -10%
+    }
+
+    User payments USDT: {
+        User->Payments_gateway: reguest for payment
+        Payments_gateway -> TRC_Wallet: create TRC wallet for user 
+        Payments_gateway -> User: send TRC wallet address to user
+        User->TRC_Wallet: send payment to tron smartcontract
+        TRC_Wallet->Payments_gateway: catch trasaction
+        Payments_gateway->Device_Group: send EVER payment to device group
+        Payments_gateway->TRC_Wallet: move tokents from personal wallet to Company wallet
+    }
+
+    User payments CRYPTO: {
+        User->Device_Group: send payment to device group
+    }
+}
+
+

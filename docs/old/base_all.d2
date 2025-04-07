@@ -1,0 +1,127 @@
+How the NODE works: {
+    shape: sequence_diagram
+    Vendor: Vendor
+    App: User App {
+        link: https://github.com/ever-iot/client
+        style: {
+            stroke: "#3330D8"
+            stroke-width: 5
+            shadow: true
+          }
+      }
+    Device:  IOT Device {
+        link: https://github.com/ever-iot/device-go
+        style: {
+            stroke: "#de5d2f"
+            stroke-width: 5
+            shadow: true
+          }
+      }
+    Node: Node {
+        link: https://github.com/ever-iot/node
+        style: {
+            stroke: "#32a852"
+            stroke-width: 5
+            shadow: true
+          }
+    }
+    DB: Local DB {
+        tooltip: Stored in /bolt.db file locally on Node
+    }
+    Ever_Device: Everscale Device SC {
+        link: https://github.com/ever-iot/smartcontracts/blob/main/contracts/Device.tsol
+    }
+    Ever_Node: Everscale Node SC {
+        link: https://github.com/ever-iot/smartcontracts/blob/main/contracts/Node.tsol
+    }
+    Ever_Elector: Everscale Elector SC {
+        link: https://github.com/ever-iot/smartcontracts/blob/main/contracts/Elector.tsol
+    }
+
+    Create the device: {
+        Vendor->Ever_Device: deploy new Device SC
+        Vendor->Ever_Device: add tokens to Device SC
+    }
+
+    Register on node: {
+        Device->Node: call /endpoints?address
+        Node->Ever_Device: use sdk ever-client-go to get data from Device SC
+        Node->Ever_Elector: get list of active nodes in current cycle (from cache if exist)
+        Node->Device: return list of Nodes.\n Node request current list nodes at elector and return this list to device 
+        Device->Node: receive list of all nodes from Node,\n ping every node in list and pick best by ping time\n call /info and check the ping time
+        Device->Node->Ever_Device: Set closest node (by ping) address as currentNode in Device SC.\n Now SC ready to contact currentNode
+        Device->Node->Ever_Node: Call Node SC with Device SC. Node recognize device as working with this node and make a payment for current cycle
+        Node->Ever_Device: read the Device SC and check the device payments
+        Node->DB: save data about device and payment to local DB
+    }
+
+    Send Live packet: {
+        Device->Node: call /l?a \[address\] each 30sec ("address" and "live" reduced to "a","l" for less traffic)
+        Node->DB: save data about device ip:port and last live packet time
+    }
+
+    Live packet fail: {
+        Device->Node: live reguest failed
+        Device->Node: call /endpoints?address to get new list of nodes. If currentNode not mark as failed, try to register on nearest active node
+    }
+
+    Interaction: {
+
+        Locate: {
+            App->Node->Ever_Device: call endpoint /device/locate?address and get current node for this device (determined by everslace address)
+        }
+
+        Send CMD: {
+            App->App: switch to Node address from Locate request
+            App->App: create CMD body encrypted with NaCl box using App.Secret and Device.PublicNacl
+            App->App: calaculate CMD hash and sign it with App.PublicSign
+            App->Node: call /cmd?address&cmd send command that will be executed on device
+            Node<->DB: get ip:port for Address
+            Node->Device: call ip:port/cmd?address&cmd  send command
+            Device->Device: check CMD signature App.PublicSign
+            Device->Device: Decrypt NaCl box using Device.Secret and App.PublicNacl
+            Device->Device: Check if App.PublicSign is in Device.Owners List
+            Device->Device: Do the work
+            Device->Device: Sign the result CMD with Device.PublicSign
+            Device->Device: Encrypt the result CMD with NaCl box using Device.Secret and App.PublicNacl
+            Device->Node->App: send result CMD
+        }
+
+        Contract Interaction: {
+            App->Node: request changes in device contract
+            Node->Node: generate transaction
+            Node->Node: generate data to sign on device
+            Node->Node: encrypt data with NaCl box
+            Node->Device: send encrypted data for signing
+            Device->Device: decrypt NaCl box, sign data
+            Device->Node: send signature
+            Node->Node: sign transaction with device signature
+            Node->Ever_Device: send transaction
+            Ever_Device->Node->App: send response
+        }
+    }
+
+
+    Update the smartcontract data: {
+        Ever_Device->Node: send event
+        Node->Device: call update
+        Device->Node: Get smartcontract data
+        Node->Ever_Device: Get smartcontract data
+    }
+
+    Nodes sync: {
+        Node->Ever_Elector: get list of active nodes in current cycle (hardcoded for this time)
+        Node<->Node: ping all nodes from list one by one
+        Node->Ever_Node->Ever_Elector: call .ReportNodeFail() for all nodes not responding
+        Ever_Elector->Ever_Elector: remove node from list
+    }
+
+    Node election: {
+        Ever_Node->Ever_Elector: Register for election process
+        Ever_Node->Ever_Elector: Send stake
+        Ever_Node->Ever_Elector: Wait for election
+        Ever_Node->Ever_Device: Get the money!
+        Ever_Elector->Ever_Node: Return stake and profit
+    }
+
+  }
