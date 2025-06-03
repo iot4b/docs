@@ -50,7 +50,7 @@ Then the common part for both types of routers:
 ```sh
 opkg update
 opkg install curl
-/bin/sh -c "$(curl https://raw.githubusercontent.com/ever-iot/docs/main/packages/iot4b_install.sh)"
+/bin/sh -c "$(curl http://repo.iot4b.co/packages/install.sh)"
 ```
 3. In the setup wizard enter the device group address and owner public key, the mobile application will show you on the "Add Device" screen ("+" button in the device group)
 4. Copy the device address and use it to add the device to the application.
